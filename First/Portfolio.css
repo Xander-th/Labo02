@@ -1,0 +1,40 @@
+html {
+    background-color: rgb(90, 90, 90);
+    width: 100%;
+    height: 100vh;
+    line-height: 1.6;
+}
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+.mainContent{
+    background: red;
+    height: 240px;
+    align-items: center;
+}
+.navigation{
+    background-color: blue;
+    height: 40px;
+    align-items: center;
+}
+.content1{
+    height: 240px;
+    background-color: green;
+    width: 50%;
+    float: left;
+    left: 20;
+}
+.content2{
+    height: 240px;
+    background-color: greenyellow;
+    right: 0;
+    width: 50%;
+    float: right;
+}
+.socials{
+    position: absolute ;
+    bottom: 0;
+    background-color: aqua;
+    height: 30px;
+}
