@@ -32,3 +32,44 @@ body{
     margin: 0 auto;
     padding: 0 1rem;
 }
+.row{
+    display: flex;
+    align-items:center;
+    align-content: center;
+    gap: 2rem;
+}
+.rowitem{
+    border-color: #00002e;
+    border-width: 2px;
+    border-style: dashed;
+    gap: 2rem;
+    width: 50%;
+    padding: 1rem;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    align-content: center;
+}
+.flexright{
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    width: 50%;
+    flex-wrap:nowrap;
+    align-items: flex-end;
+}
+.flexright>*{
+   
+}
+.flexlist{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-decoration: none;
+    color: #fffdff;
+}
+.flexleft{
+    width: 50%;
+}
