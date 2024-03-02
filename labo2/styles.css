@@ -7,13 +7,7 @@ html{
     background-color: #00002e;
     color: #fffdff;
 }
-.navul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
+
 .navlink{
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -32,6 +26,16 @@ body{
     margin: 0 auto;
     padding: 0 1rem;
 }
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+/* OEFENING 1 COLUMS */
+
 .row{
     display: flex;
     align-items:center;
@@ -46,30 +50,41 @@ body{
     width: 50%;
     padding: 1rem;
 }
+
+/* OEFENING 2 NAV */
+
 .flex{
     display: flex;
     width: 100%;
     align-items:center;
     align-content: center;
 }
-.flexright{
-    flex-direction: row;
-    list-style: none;
-    display: flex;
-    gap: 2rem;
+.flex div:first-child{
     width: 50%;
-    flex-wrap:nowrap;
+}
+.flex ul{
     align-items: flex-end;
+    justify-content: flex-end;
+    
 }
-.flexright>*{
-   
+.flex li{
+    padding: 10px;
 }
-.flexlist{
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+.flex a{
+    background-color: rgb(145, 0, 0);
     text-decoration: none;
-    color: #fffdff;
+    color: white;
+    padding: 1rem;
 }
-.flexleft{
+.flex a:hover{
+    background-color: white;
+    color: rgb(145, 0, 0);
+}
+.flex a:focus-visible{
+    background-color: white;
+    color: rgb(145, 0, 0);
+}
+.flex nav{
     width: 50%;
 }
+
