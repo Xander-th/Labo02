@@ -65,10 +65,7 @@ nav ul{
 .flex ul{
     align-items: flex-end;
     justify-content: flex-end;
-    
-}
-.flex li{
-    padding: 10px;
+    gap: 0rem;
 }
 .flex a{
     background-color: rgb(145, 0, 0);
@@ -88,3 +85,44 @@ nav ul{
     width: 50%;
 }
 
+/* OEFENING 3 CARDS */
+
+.cards{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-left: -2.5rem;
+}
+.cards li{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    -webkit-box-shadow: 9px 10px 21px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 21px -13px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 21px -13px rgba(0,0,0,0.75);
+}
+
+.cards img{
+    width: 100%;
+}
+.cards li img{
+    order: -1;
+}
+.cards li .content{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+
+}
+.cards .overlay-link{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.cards li>a:not(.overlay-link){
+    z-index: 1;
+}
