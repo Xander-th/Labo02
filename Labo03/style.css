@@ -1,0 +1,86 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #fffdff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+ol li {
+    margin-bottom: 1rem;
+}
+section > h2 {
+    margin-top: 4rem;
+}
+.backtotop {
+    font-size: 0.8rem;
+}
+/* HELPERS */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+
+/* --- OEFENING 1 --- */
+article.typografie {
+    
+
+}
+
+
+
+
+/* --- OEFENING 2 --- */
+
+
+
+
+
+
+/* --- OEFENING 3 --- */
+article.shoe {
+    /* Zorg dat deze gecentreerd zal worden en een maximum breedte van 30rem */
+    /* Stel het lettertype "open sans" in (google font) */
+    /* De afgronde hoeken zet je in met border radius, de schaduw met box-shadow */
+}
+
+
+/* Breadcrumb & update */
+/* Plaats de breadcrumb (men - shoes) en new color naast elkaar met flex. 
+Doe de nodige instellingen inzake typografie */
+
+
+/* Title & prices */
+/* De titel en de prijs ga je ook naast elkaar plaatsen met flexbox
+de prijs en de vat kan je onder elkaar plaatsen met flex-direction: column 
+Doe de nodige instellingen inzake typografie */
+
+
+/* Description */
+/* selecteer de paragraaf in het article, deze heeft weinig instelling buiten wat marges en een maximum breedte */
+
+
+/* Colors */
+/* Maak de paragraaf met de kleurnaam correct op.
+ Zet de foto's naast elkaar met flex en voorzie ruimte met gap
+ Geef de list items een achtergrond kleur. Aangezien de foto's transparant zijn zie je die 
+ als achtergrond bij de foto's.
+ Stel een border in op de geselecteerde foto/kleur */
+ 
+
+
+/* Sizes */
+/* Gebruik terug Flexbox om de sizes naast elkaar te plaatsen.
+gebruik "wrap" om het grid effect te krijgen.
+Via paddings kan je de knoppen groter maken. */
+/* de lector zal ook de hover functie van dit onderdeel tonen in het labo */
+
+/* button */
+/* Om af te ronden, voorzie de opmaak van de button */
