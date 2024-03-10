@@ -2,6 +2,7 @@
 <html lang="nl">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,6 +13,9 @@
         rel="stylesheet">
 
     <!-- Oefening 2: Typografie -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
 
 
     <!-- Oefening 3: Shoe -->
@@ -37,7 +41,9 @@
     </header>
     <main>
         <article class="container">
+
             <h1>Labo 03</h1>
+
             <section>
                 <h2 id="oef01">Typografie</h2>
                 <p>
@@ -45,31 +51,33 @@
                     Zorg dat deze overeenkomt met de gegeven screenshot. De stappen die je hiervoor moet doorlopen:
                 </p>
                 <ol>
-                    <li>Gebruik het lettertype <a href="https://fonts.google.com/specimen/Source+Serif+4">Source Serif 4
+                    <li class="klaar">Gebruik het lettertype <a href="https://fonts.google.com/specimen/Source+Serif+4">Source Serif 4
                             (ExtraLight
                             200 Italic, Regular 400, ExtraBold 800)</a></li>
-                    <li>Geef <a href="https://www.w3schools.com/css/css_border.asp" target="_blank"
+                    <li class="klaar">Geef <a href="https://www.w3schools.com/css/css_border.asp" target="_blank"
                             title="W3schools Hoe een border instellen">een border</a> aan het betreffende article
                         element en stel een padding in van 1rem. <br>Dit is louter om de typografie oefening af te
                         zonderen.</li>
-                    <li>Beperk de regelbreedte tot maximaal 42.5rem (excl. de padding!)</li>
-                    <li>Stel de lettergrootte van de leestekst in op 20px (1.25rem) en de regelhoogte in op 1.6. Stel
+                    <li class="klaar">Beperk de regelbreedte tot maximaal 42.5rem (excl. de padding!)</li>
+                    <li class="klaar">Stel de lettergrootte van de leestekst in op 20px (1.25rem) en de regelhoogte in op 1.6. Stel
                         het kleur in op een donkergrijs (bijvoorbeeld: #222 of #242424)</li>
-                    <li>Stel de onderste marge van de paragrafen in op anderhalf keer de lettergrootte</li>
-                    <li>Stel de de lettergrootte van de titels in. Doe dit per niveau ongeveer 1,5 keer groter
+                    <li class="klaar">Stel de onderste marge van de paragrafen in op anderhalf keer de lettergrootte</li>
+                    <li class="klaar">Stel de de lettergrootte van de titels in. Doe dit per niveau ongeveer 1,5 keer groter
                         (Concreet: h2 =
                         1,5 x fontsize leestekst, h1 = 1,5 x fontsize h2)</li>
-                    <li>Zorg dat de titels in het vet staan, zie de lettertype variant</li>
-                    <li>Stel de marges van de titels in zodat deze (bijna) overeenkomen met de screenshot</li>
-                    <li>Zorg dat het copyright cursief staat (Tip: <a
+                    <li class="klaar">Zorg dat de titels in het vet staan, zie de lettertype variant</li>
+                    <li class="klaar">Stel de marges van de titels in zodat deze (bijna) overeenkomen met de screenshot</li>
+                    <li class="klaar">Zorg dat het copyright cursief staat (Tip: <a
                             href="https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child" target="_blank"
                             title="Uitleg over het pseudo-element last-child">pseudo-element :last-child</a>)</li>
 
                 </ol>
 
+                <div class="flex">
                 <article class="typografie">
-                    <h1>Typografie op het internet: Enkele tips</h1>
-                    <h2>Inleiding</h2>
+                    <h1 class="titelsh1">Typografie op het internet: <br> Enkele tips</h1>
+                    <h2 class="titels">Inleiding</h2>
+                    <div class="leestext">
                     <p>
                         Typografie is de kunst van het vormgeven van tekst. Het gaat om de keuze van lettertype,
                         lettergrootte, regelafstand, kleur en andere aspecten van de tekst. Met typografie kun je de
@@ -79,40 +87,59 @@
                         scherp dan op papier. Dit betekent dat de tekst goed leesbaar moet zijn, ook bij een lagere
                         resolutie.
                     </p>
-                    <h2>Tip 1: Kies een geschikt lettertype.</h2>
+                    </div>
+
+                    <h2 class="titels">Tip 1: Kies een geschikt lettertype.</h2>
+                    <div class="leestext">
                     <p>Kies een geschikt lettertype. Er zijn twee hoofdtypen lettertypes: serif en sans serif. Serif
                         lettertypes hebben kleine uitlopers aan de letters, terwijl sans serif lettertypes dat niet
                         hebben. Serif lettertypes zijn over het algemeen iets gemakkelijker leesbaar op papier, terwijl
                         sans serif lettertypes beter leesbaar zijn op het scherm.</p>
                     <p>Voorbeelden van serif en sans serif lettertypes:</p>
+                
+
                     <ul>
                         <li><strong>Serif:</strong> Times New Roman, Georgia, Baskerville</li>
                         <li><strong>Sans serif:</strong> Arial, Verdana, Trebuchet MS</li>
                     </ul>
+                    </div>
 
-                    <h2>Tip 2: Gebruik een duidelijke lettergrootte</h2>
+                    <h2 class="titels">Tip 2: Gebruik een duidelijke lettergrootte</h2>
+                    <div class="leestext">
                     <p>De lettergrootte moet groot genoeg zijn om goed leesbaar te zijn, maar niet zo groot dat het
                         tekstblok te groot wordt. Een goede vuistregel is om een lettergrootte van 16 pixels (of 1em) of
                         meer te gebruiken.</p>
+                    </div>
 
-                    <h2>Tip 3: Gebruik een goede regelafstand</h2>
+                    <h2 class="titels">Tip 3: Gebruik een goede regelafstand</h2>
+
+                    <div class="leestext">
                     <p>De regelafstand moet groot genoeg zijn om de letters van elkaar te onderscheiden, maar niet zo
                         groot dat het tekstblok te open wordt. Een goede vuistregel is om een regelafstand van 1,5 of 2
                         te gebruiken.</p>
+                    </div>
 
-                    <h2>Tip 4: Gebruik een contrasterende kleur voor de tekst en de achtergrond</h2>
+                    <h2 class="titels">Tip 4: Gebruik een contrasterende kleur voor de tekst en de achtergrond</h2>
+
+                    <div class="leestext">
                     <p>De tekst moet goed contrasteren met de achtergrond, zodat deze gemakkelijk leesbaar is. Een goede
                         vuistregel is om een lichte tekst op een donkere achtergrond of een donkere tekst op een lichte
                         achtergrond te gebruiken.</p>
+                    </div>
 
-                    <h2>Tip 5: Gebruik voldoende witruimte</h2>
+                    <h2 class="titels">Tip 5: Gebruik voldoende witruimte</h2>
+
+                    ,<div class="leestext">
                     <p>Witte ruimte is belangrijk om de tekst luchtig en overzichtelijk te maken. Zorg ervoor dat er
                         voldoende ruimte is tussen de verschillende tekstblokken, tussen de tekst en de afbeeldingen, en
                         tussen de tekst en de zijkanten van het scherm.</p>
                     <p>Je kan dit bekomen door je marges tussen bijvoorbeeld paragrafen, titels, afbeeldingen, &hellip;
                         groter te nemen dan je regelafstand. Wees hierbij consistent doorheen je tekst en website.</p>
+                    </div>
 
-                    <h2>Tot slot</h2>
+                    <h2 class="titels">Tot slot</h2>
+
+                <div class="leestext">
                     <p>
                         Het is natuurlijk ook belangrijk om rekening te houden met de specifieke doelgroep van de tekst.
                         Als de tekst bijvoorbeeld een zakelijk doel heeft, gebruik dan geen fantasie lettertype.
@@ -121,9 +148,12 @@
                         Met een beetje aandacht voor typografie kun je ervoor zorgen dat je teksten op het internet goed
                         leesbaar en aantrekkelijk zijn.
                     </p>
-                    <p>&copy; <a href="https://bard.google.com/">Bard</a> - geëditeerd door D.</p>
-                </article>
+                </div>
+            
 
+                    <p>,<i>&copy; <a href="https://bard.google.com/">Bard</a> - geëditeerd door D.</i></p>
+                </article>
+            </div>
             </section>
 
             <section>
